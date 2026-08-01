@@ -1,7 +1,28 @@
 aid: science
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/science.png
 name: Science
-description: Science is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Science Corporation is a clinical-stage medical technology company founded in
+  2021 by Max Hodak and headquartered in Alameda, California, with offices in
+  Research Triangle Park, North Carolina and Paris, France. Science develops
+  brain-computer interface (BCI) and neural-engineering technologies to restore
+  vision, cognition, and mobility, including the PRIMA retinal implant for
+  patients with macular degeneration, the Biohybrid neural interface, and the
+  Vessel perfusion platform. Through its Foundry division Science also offers
+  MEMS production and neural-engineering services to external partners. This is
+  a company profile in the API Evangelist network; Science publishes no public
+  web API, developer portal, or machine-readable API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/science/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Brain-Computer Interface
+- Neurotechnology
+- Neural Engineering
+- Healthcare
+- Biotechnology
+- Medical Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://science.xyz/
+- type: Documentation
+  url: https://science.xyz/docs
+- type: Support
+  url: https://science.xyz/support
+- type: Blog
+  url: https://science.xyz/news
+- type: TermsOfService
+  url: https://science.xyz/legal/terms
+- type: PrivacyPolicy
+  url: https://science.xyz/legal/privacy
+- type: DomainSecurity
+  url: security/science-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
